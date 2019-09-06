@@ -219,6 +219,7 @@
 		height:30px;
 
 	}
+
 		
 	
 	#left, #main	{
@@ -227,6 +228,11 @@
 	
 	#footer	{
 		clear:both;
+	}
+	@media screen and (max-width: 800px;){
+		.container, #header, #banner, #banner2, #main, #form, #left, #footer{
+			width: 100%;
+		}
 	}
 	
 		
